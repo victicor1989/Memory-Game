@@ -6,7 +6,7 @@ let secondResult = null;
 let movements = 0;
 let hits = 0;
 let temporizador = false;
-let timer = 30;
+let timer = 40;
 let timerInicial = timer;
 let countdownTime = null;
 
