@@ -1,8 +1,67 @@
 @media (max-width: 400px) {
     main {
         flex-direction: column;
+        justify-content: center;
         align-items: flex-start;
+        margin-left: 30px;
+    }
+
+    .section1 {
+        width: 300px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+
+    .section2 {
+        width: 320px;
+        height: 200px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .estadisticas {
+        height: 50px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    button {
+        width: 70px;
+        height: 60px;
+    }
+
+    footer {
+        display: flex;
+        width: 90%;
+        height: 100px;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         margin: 0 auto;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    #reiniciar {
+        height: 40px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 430px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 40px;
     }
 
     .section1 {
